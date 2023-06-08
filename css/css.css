@@ -1,0 +1,122 @@
+@import url('https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css');
+* {
+    margin: 0;
+    padding: 0;
+    color: inherit;
+    list-style: none;
+    background: inherit;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    background-color: #ccc;
+}
+.container {
+    height: auto;
+    width: 1420px;
+    margin-left: 1%;
+}
+.container .menu {
+    height: 60px;
+    width: 1000px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: -80px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+.container .menu .logo {
+    color: #007ACC;
+    padding: 8px 0 8px  15px;
+}
+.container .menu .text {
+    gap: 10px;
+    display: flex;
+    line-height: 60px;
+    padding-left: 250px;
+}
+.container .menu .text a h4 {
+    gap: 10px;
+    display: flex;
+    font-size: 17px;
+    color: #007ACC;
+    align-items: center;
+    padding-right: 10px;
+    justify-content: center;
+}
+.container .menu .text a h4:hover {
+    color: red;
+    font-size: 18px;
+    text-decoration: underline black;
+}
+h1.sahifa {
+    color: black;
+    font-size: 20px;
+    padding-top: 2%;
+    text-transform: capitalize;
+} 
+.container h3 {
+    padding-top: 2%;
+    color: #007ACC;
+    text-transform: capitalize;
+}
+.container h2 {
+    padding-top: 2%;
+    color: #007ACC;
+    text-transform: capitalize;
+}
+.container a {
+    padding-bottom: 10px;
+}
+.container a p {
+    color: #8A5C8B;
+    padding-bottom: 15px;
+}
+.container a p:hover {
+    color: red;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-decoration: underline #007ACC;
+}
+.container h2 p {
+    font-size: 18px;
+    color: #8A5C8B;
+    padding-bottom: 15px;
+}
+.container h2 p:hover {
+    color: red;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-decoration: underline #007ACC;
+}
+/*biz haqimizda*/
+.biz_haqimizda {
+    display: flex;
+}
+.biz_haqimizda .user {
+    width: 300px;
+    height: 400px;
+}
+.biz_haqimizda .items {
+    margin-left: 10px;
+}
+.biz_haqimizda .items .item_men {
+    display: flex;
+}
+.biz_haqimizda .items .item_men li {
+    gap: 10px;
+    width: 80px;
+    height: auto;
+    display: flex;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+img {
+    width: 100%;
+}
